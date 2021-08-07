@@ -1,0 +1,24 @@
+{
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook"
+    },
+    "workbench.colorTheme": "Atom One Dark",
+    "python.defaultInterpreterPath": "C:\\Users\\MARIAITATI\\AppData\\Local\\Programs\\Python\\Python39\\python.exe",
+    "editor.tokenColorCustomizations": {
+        "[Atom One Dark]": {
+            "variables": "#5280ff",
+            "comments": "#e0e0e0",
+            "types": "#cce200"
+        }
+    },
+    "workbench.colorCustomizations": {
+        "[Atom One Dark]": {
+            "editor.background": "#14010f"
+        }
+    },
+    "files.autoSave": "afterDelay",
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "left"
+    }
+}
