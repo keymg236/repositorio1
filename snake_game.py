@@ -13,6 +13,7 @@ import random
 score = 0
 high_score = 0
 
+import math
 
 
 #PASO 1
