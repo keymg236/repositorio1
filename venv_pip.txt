@@ -1,0 +1,38 @@
+#crear entorno
+    python3 -m venv /directorio/nombre_entorno
+
+#activar entorno
+    posix
+        source directorio/nombre_entorno/bin/activate
+
+    cmd (WINDOWS)
+        directorio\nombre_entorno\Scripts\activate.bat
+
+    PowerShell (WINDOWS)
+         directorio\nombre_entorno\\Scripts\Activate.ps1
+
+
+#instalar paquetes con pip
+    pip install nombre_paquete
+
+#instalar versión especifica
+    pip install nombre_paquete==1.0.4
+
+#instalar versión especificada o mas actual.
+    pip install paquete>=1.0.4
+
+#instalar paquetes desde archivo
+    pip install -r requirements.txt
+
+#actualizar paquete
+    pip install --upgrade nombre_paquete
+
+
+#desinstalar
+    pip uninstall paquete
+
+#ver paquetes instalados
+    pip freeze
+
+#los paquetes instalados a un archivo
+    pip freeze > requirements.txt
